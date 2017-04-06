@@ -5,7 +5,6 @@
 //For random numbers
 #include <experimental/random>
 
-
 std::string name;
 std::string quitReason;
 int total;
@@ -23,7 +22,6 @@ void mainLoop()
     //Keep running until there's a reason to finish
     while (quitReason == "")
     {
-
         int newNumber = std::experimental::randint(1, 99);
         std::cout << "The number is: " << holdNumber << std::endl;
         std::cout << "Is the next number higher (h) or lower (l)?" << std::endl;
